@@ -1,0 +1,233 @@
+/* Please define your custom styles here */
+
+.displaysize {
+  height:600px;
+}
+
+.header_logo {
+  padding: 0px;
+}
+
+.div_intro {
+  width: 800px;
+}
+
+.intro {
+  text-align:left;
+}
+
+.container{
+  width: 900px;
+}
+
+.interlude {
+  height:600px;
+}
+.content {
+  background-color: #d3d3d3;
+}
+
+.cover {
+  background-color: lightblue;
+  position: absolute;
+
+}
+
+.mouselab_box {
+  height: 70px;
+  width: 110px;
+  margin: 15px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 66px;
+}
+
+.div_trials {
+  width: 900px;
+  height: 700px;
+}
+
+.logo_osu{
+  width: 210px;
+  height: 140px;
+  padding: 10px;
+}
+
+.product_title_left {
+  width:200px;
+}
+
+.product_title_right {
+  width:100px;
+}
+
+/* Overall table */
+
+
+.overall_table {
+  width: 860px;
+}
+
+/*.overall_table_td {
+  width: 380px; 
+} */
+
+.overall_table_gap {
+  width: 100px;
+}
+
+.product_A_B {
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.product_title_n-only {
+  width: 280px;
+}
+
+.p_product {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buttonsAB {
+  text-align: center;
+}
+
+/* Mouselab table */
+
+.ml_td {
+  height: 100px;
+  width: 140px;
+  text-align: center;
+  vertical-align: middle; 
+}
+
+.ml_td_reviewer {
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ml_td_points_labels {
+  width: 140px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+table td, table th, table tr, table{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.p_content {
+  margin: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0px;
+}
+
+.button_row {
+  height: 100px;
+}
+
+.product_name {
+  margin: 0px;
+}
+
+.filler_td_n-only1 {
+  width: 70px;
+}
+
+.filler_td_n-only2 {
+  width: 70px;
+}
+
+.filler_td_n-only_width30 {
+  width: 30px;
+}
+
+
+/*interlude*/
+.div_button_interlude {
+  height: 303px;
+}
+
+.height_250px {
+  height: 97px;
+}
+
+/* Affect questions */
+
+.td_affect_radio {
+  width: 50px;
+  padding: 0px;
+  text-align: center;
+}
+
+.affect_scale_anchors {
+  height: 40px;
+  font-size: 14px;
+  line-height: 1.2em;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.table_radio_buttons {
+  width: 600px;
+}
+
+.margin_narrow {
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+/* Affect questions */
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 86%; /* Full-width */
+  height: 6px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  padding: 0px;
+  border-radius: 1px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 10px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: black; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 3px;
+  border: 1px solid #000000;
+}
+
+.slider::-moz-range-thumb {
+  width: 10px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: black; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 3px;
+  border: 1px solid #000000;
+}
